@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Core/etc/config.xsd">
+    <default>
+        <carriers>
+            <evz_shipping>
+                <active>1</active>
+                <model>Evz\Shipping\Model\Carrier</model>
+                <title>Custom Shipping Carrier</title>
+                <api_key backend_model="Magento\Backend\Model\Config\Backend\Encrypted" />
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_max_weight>2</express_max_weight>
+            </evz_shipping>
+        </carriers>
+    </default>
+</config>
